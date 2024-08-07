@@ -7,7 +7,9 @@ export default defineConfig({
     plugins: [
         react(),
         keycloakify({
-            accountThemeImplementation: "none"
+            accountThemeImplementation: "none",
+            themeName: "material-ui",
+            themeVersion: "1.0.1"
         })
     ]
 });
